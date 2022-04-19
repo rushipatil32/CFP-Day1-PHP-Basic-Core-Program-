@@ -1,6 +1,6 @@
 <?php
-$Num1 = readline("Enter value of Num1");
-$Num2 = readline("Enter value of Num2");
+$Num1 = readline("Enter value of Num1: ");
+$Num2 = readline("Enter value of Num2: ");
 
 $option = readline("Enter 1 for Addition\nEnter 2 for Substraction\nEnter 3 for Multiplication\nEnter 4 for Division");
 
@@ -20,3 +20,4 @@ switch ($option) {
     default:
         echo "Enter valid choice";
 }
+?>
